@@ -45,3 +45,7 @@ small {
 .producer {
   padding-inline-start: 2rem;
 }
+
+footer {
+  justify-content: space-between;
+}

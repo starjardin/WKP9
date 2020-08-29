@@ -1,0 +1,47 @@
+html {
+  background-color: #eeeeee;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+header {
+  display: block;
+  text-align: center;
+}
+
+.film {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  background-color: #ffffff;
+  padding: 1rem;
+  border-radius: 10px;
+  margin-block-start: 2rem;
+  margin-block-end: 2rem;
+}
+
+.film_article {
+  grid-row-start: 1;
+  grid-column-start: 1;
+  grid-column-end: 4;
+}
+
+.main_header, footer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: baseline;
+}
+
+small {
+  padding-inline-start: 2rem;
+}
+
+.rate_score {
+  display: flex;
+  justify-content: flex-end;
+  padding-block-start: 5rem;
+}
+
+.producer {
+  padding-inline-start: 2rem;
+}
